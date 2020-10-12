@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="cr.una.taskapp.backend.service.RoleServiceTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-10-05T20:58:33" hostname="gmb" time="0.026">
+  <properties/>
+  <testcase name="testUpdateDepartment" classname="cr.una.taskapp.backend.service.RoleServiceTest" time="0.022"/>
+  <testcase name="testFindAll" classname="cr.una.taskapp.backend.service.RoleServiceTest" time="0.001"/>
+  <testcase name="testFindById" classname="cr.una.taskapp.backend.service.RoleServiceTest" time="0.002"/>
+  <testcase name="testCreateDepartment" classname="cr.una.taskapp.backend.service.RoleServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,4 @@
+-- USERS
+INSERT INTO public."users" ("id_user", "created", "email", "enabled", "firstname", "lastname", "username", "password", "expired") VALUES (1, '2020-08-30 18:23:52.000000', 'admin@localhost.com', true, 'Administrator', 'General', 'admin', '$2y$12$JykAilNl0SaEkIO8fm.7ge10BrrRKJ.3aS7Rus3EQbKvVAFKN1Feu', false);
+INSERT INTO public."users" ("id_user", "created", "email", "enabled", "firstname", "lastname", "username", "password", "expired") VALUES (2, '2020-08-30 18:23:52.000000', 'user01@localhost.com', true, 'User', '01', 'user01', '$2y$12$JykAilNl0SaEkIO8fm.7ge10BrrRKJ.3aS7Rus3EQbKvVAFKN1Feu', false);
+INSERT INTO public."users" ("id_user", "created", "email", "enabled", "firstname", "lastname", "username", "password", "expired") VALUES (3, '2020-08-30 18:23:52.000000', 'user02@localhost.com', true, 'User', '02', 'user02', '$2y$12$JykAilNl0SaEkIO8fm.7ge10BrrRKJ.3aS7Rus3EQbKvVAFKN1Feu', false);
