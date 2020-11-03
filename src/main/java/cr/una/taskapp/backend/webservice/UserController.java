@@ -58,6 +58,13 @@ public class UserController {
         return convertToDto(service.create(user));
     }
 
+    @PostMapping(path = "/{id}", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    @ResponseBody
+    public UserDto findByIdPost(@PathVariable Long id) {
+        User user = service.findById(id);
+        return convertToDto(user);
+    }
+
     /**
      * Find the user by id
      * Endpoint: /api/v1/users/1

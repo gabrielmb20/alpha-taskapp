@@ -25,6 +25,11 @@ public class UserService implements IUserService{
         return dao.findById(id_user);
     }
 
+    @Override
+    public User findByIdPost(long id_user) {
+        return dao.findById(id_user);
+    }
+
     /**
      * Method to find all entities
      *

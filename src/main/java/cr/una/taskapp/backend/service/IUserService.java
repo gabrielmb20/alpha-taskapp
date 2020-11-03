@@ -13,6 +13,9 @@ public interface IUserService {
      */
     public User findById (final long id);
 
+    public User findByIdPost (final long id);
+
+
     /**
      * Method to find all entities
      * @return the list of entities of user
